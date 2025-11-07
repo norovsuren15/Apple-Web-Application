@@ -46,6 +46,11 @@
   height: 48px;
 }
 
+.item-box4 {
+  width: 48px;
+  height: 48px;
+}
+
 .gap {
   gap: 7px;
 }
@@ -108,6 +113,46 @@
 
 .font-inter {
   font-family: "Inter", sans-serif;
+}
+
+.laptop-header {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.laptop-img {
+  width: 100%;
+  height: 692px;
+  background-image: url(./Image/gift-magic.png);
+  margin: 12px 0 0;
+}
+
+@media screen and (min-width: 900px) {
+  .item-box4 {
+    display: none;
+  }
+
+  .mobile-header-top {
+    justify-content: center;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .laptop-img {
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .laptop-header {
+    display: none;
+  }
+
+  .laptop-img {
+    display: none;
+  }
 }
 
 .card {
@@ -209,6 +254,130 @@
   color: #ffffff;
 }
 
+@media screen and (min-width: 600px) {
+  .card {
+    height: 650px;
+  }
+
+  .bg-image-1 {
+    background-image: url(./Image/tablet-\ IP16pro.png);
+  }
+
+  .card-text {
+    width: 405px;
+    height: 156px;
+  }
+
+  .text1 {
+    font-size: 42px;
+    font-weight: 600;
+  }
+
+  .text2 {
+    font-size: 22px;
+  }
+
+  .c-text-box1 {
+    width: 123px;
+    height: 44px;
+  }
+
+  .c-text3 {
+    font-size: 16px;
+  }
+
+  .c-text-box2 {
+    width: 68px;
+    height: 44px;
+  }
+
+  .c-text4 {
+    width: 28px;
+    font-size: 16px;
+  }
+
+  .text-margin1 {
+    margin: 58px 181px 436px 182px;
+  }
+
+  .gap2 {
+    gap: 16px;
+  }
+
+  /* card1 tugsgul heseg card2 ehlel heseg */
+
+  .bg-image-2 {
+    background-image: url(./Image/Tablet-IP16.png);
+  }
+
+  .text-margin2 {
+    margin: 58px 181px 436px 182px;
+  }
+
+  .c2-text-box1 {
+    width: 123px;
+    height: 44px;
+  }
+
+  .c2-text3 {
+    font-size: 16px;
+  }
+
+  .c2-text-box2 {
+    width: 68px;
+    height: 44px;
+  }
+
+  .c2-text4 {
+    width: 28px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    height: 692px;
+  }
+
+  .bg-image-1 {
+    background-image: url(./Image/laptop-IP16pro.png);
+  }
+
+  .card-text {
+    height: 172px;
+  }
+
+  .text1 {
+    font-size: 52px;
+  }
+
+  .text2 {
+    font-size: 24px;
+  }
+
+  .text-margin1 {
+    margin: 55px 758px 465px 757px;
+  }
+
+  /* card1 tugsgul heseg card2 ehlel heseg */
+
+  .bg-image-2 {
+    background-image: url(./Image/Laptop-IP16.png);
+  }
+
+  .text-margin2 {
+    margin: 55px 758px 465px 757px;
+  }
+
+  .gap1 {
+    gap: 20px;
+  }
+
+  .gap3 {
+    gap: 16px;
+  }
+}
+
 .c3-card-text {
   width: 100%;
   height: 81.86px;
@@ -247,7 +416,7 @@
   margin-bottom: 20px;
 }
 
-.c4-text-box1 {
+/* .c4-text-box1 {
   width: 241px;
   height: 91px;
 }
@@ -319,4 +488,4 @@
 .c7-card-text {
   width: 257px;
   height: 116px;
-}
+} */
