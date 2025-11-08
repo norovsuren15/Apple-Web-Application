@@ -75,6 +75,14 @@
   gap: 20px;
 }
 
+.lgap1 {
+  gap: 12px;
+}
+
+.lgap2 {
+  gap: 16px;
+}
+
 .header-text {
   padding: 18px 31px;
 }
@@ -115,18 +123,6 @@
   font-family: "Inter", sans-serif;
 }
 
-.laptop-header {
-  font-size: 12px;
-  font-weight: 400;
-}
-
-.laptop-img {
-  width: 100%;
-  height: 692px;
-  background-image: url(./Image/gift-magic.png);
-  margin: 12px 0 0;
-}
-
 @media screen and (min-width: 900px) {
   .item-box4 {
     display: none;
@@ -138,11 +134,6 @@
     gap: 24px;
     align-items: center;
   }
-
-  .laptop-img {
-    background-position: center;
-    background-size: cover;
-  }
 }
 
 @media screen and (max-width: 900px) {
@@ -150,12 +141,18 @@
     display: none;
   }
 
-  .laptop-img {
+  .bg-image-add {
     display: none;
   }
 }
 
 .card {
+  width: 100%;
+  height: 500px;
+  margin: 12px 0 0;
+}
+
+.card-c {
   width: 100%;
   height: 500px;
   margin: 12px 0 0;
@@ -254,8 +251,105 @@
   color: #ffffff;
 }
 
+.c3-card-text {
+  width: 100%;
+  height: 81.86px;
+}
+
+.c3-text2-box {
+  width: 100%;
+  height: 32px;
+}
+
+.c3-text2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.c3-img {
+  width: 180px;
+  height: 41.86px;
+  background-image: url(./Image/image\ 1.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-image-3 {
+  background-image: url(./Image/ipad.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.text-margin3 {
+  margin: 36px 0 330.14px;
+}
+
+.card-margin {
+  margin-bottom: 20px;
+}
+
+.c3-footer-text {
+  font-size: 14px;
+  font-weight: 500;
+  background: -webkit-linear-gradient(
+    90.43deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  margin-top: 328.14px;
+}
+
+.laptop-header {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.bg-image-add {
+  background-image: url(./Image/gift-magic.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.text-margin-add {
+  margin: 446px 758px 82px 757px;
+}
+
+.laptop-text {
+  color: #000000;
+}
+
+.c4-text-box1 {
+  width: 241px;
+  height: 91px;
+}
+
+.bg-image-4 {
+  background-image: url(./Image/Airpods.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.text-margin4 {
+  margin: 299px 74px 54px 75px;
+}
+
+.column {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
 @media screen and (min-width: 600px) {
   .card {
+    height: 650px;
+  }
+
+  .card-c {
     height: 650px;
   }
 
@@ -332,6 +426,43 @@
     width: 28px;
     font-size: 16px;
   }
+
+  /* card2tugsgul heseg card3 elel heseg */
+
+  .c3-card-text {
+    width: 405px;
+    height: 79px;
+  }
+
+  .c3-text2-box {
+    width: 405px;
+    height: 32px;
+  }
+
+  .c3-text2 {
+    font-size: 22px;
+  }
+
+  .c3-img {
+    height: 39px;
+  }
+
+  .bg-image-3 {
+    background-image: url(./Image/ipad-tablet.png);
+  }
+
+  .text-margin3 {
+    margin: 58px 181px 453px 182px;
+  }
+
+  .card-margin {
+    margin-bottom: 0px;
+  }
+
+  .c3-footer-text {
+    font-size: 20px;
+    margin-top: 427px;
+  }
 }
 
 @media screen and (min-width: 900px) {
@@ -376,61 +507,20 @@
   .gap3 {
     gap: 16px;
   }
+
+  /* endees 2 card yvah heseg */
+
+  .card-c {
+    height: 580px;
+    width: 942px;
+  }
+
+  .bg-image-3 {
+    background-image: url(./Image/laptop-iPad.png);
+  }
 }
 
-.c3-card-text {
-  width: 100%;
-  height: 81.86px;
-}
-
-.c3-text2-box {
-  width: 100%;
-  height: 32px;
-}
-
-.c3-text2 {
-  font-size: 18px;
-  font-weight: 400;
-  color: #000000;
-}
-
-.c3-img {
-  width: 180px;
-  height: 41.86px;
-  background-image: url(./Image/image\ 1.png);
-  background-position: center;
-  background-size: cover;
-}
-
-.bg-image-3 {
-  background-image: url(./Image/ipad.png);
-  background-size: cover;
-  background-position: center;
-}
-
-.text-margin3 {
-  margin: 36px 0 330.14px;
-}
-
-.card-margin {
-  margin-bottom: 20px;
-}
-
-/* .c4-text-box1 {
-  width: 241px;
-  height: 91px;
-}
-
-.bg-image-4 {
-  background-image: url(./Image/Airpods.png);
-  background-size: cover;
-  background-position: center;
-}
-
-.text-margin4 {
-  margin: 299px 74px 54px 75px;
-}
-
+/* 
 .c5-apple-icon {
   width: 22px;
   height: 27px;
