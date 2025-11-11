@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-.mobile-header {
-  width: 100%;
-  height: 121px;
-}
-
 .mobile-header-top {
   width: 100%;
   height: 48px;
@@ -17,7 +12,7 @@
 
 .mobile-header-bottom {
   width: 100%;
-  height: 73;
+  height: 73px;
   background-color: #ffffff;
 }
 
@@ -146,6 +141,8 @@
   }
 }
 
+/* endees card section */
+
 .card {
   width: 100%;
   height: 500px;
@@ -158,16 +155,11 @@
   margin: 12px 0 0;
 }
 
-.card-t {
-  width: 100%;
-  height: 500px;
-  margin: 12px 0 0;
-}
-
 .bg-image-1 {
   background-image: url(./Image/gold\ IP.png);
   background-size: cover;
   background-position: center;
+  width: 100%;
 }
 
 .card-text {
@@ -250,6 +242,7 @@
   background-image: url(./Image/blue\ IP.png);
   background-size: cover;
   background-position: center;
+  width: 100%;
 }
 
 .text-margin2 {
@@ -314,7 +307,17 @@
   background-size: cover;
 }
 
+.hidden-bg3 {
+  display: none;
+}
+
 .bg-image-3 {
+  background-image: url(./Image/ipad.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg1-image-3 {
   background-image: url(./Image/ipad.png);
   background-size: cover;
   background-position: center;
@@ -447,13 +450,13 @@
   margin: 47px 66px 285px 67px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   .card {
     height: 650px;
   }
 
   .card-c {
-    height: 650px;
+    height: 490px;
   }
 
   .bg-image-1 {
@@ -536,14 +539,18 @@
 
   /* card2tugsgul heseg card3 elel heseg */
 
-  .c3-card-text {
-    width: 405px;
-    height: 79px;
+  .bg1-image-3 {
+    display: none;
   }
 
-  .c3-text2-box {
-    width: 405px;
-    height: 32px;
+  .bg-image-3 {
+    display: block;
+    background-image: url(./Image/ipad-tablet.png);
+  }
+
+  .c3-card-text {
+    width: 100%;
+    height: 79px;
   }
 
   .c3-text2 {
@@ -554,12 +561,9 @@
     height: 39px;
   }
 
-  .bg-image-3 {
-    background-image: url(./Image/ipad-tablet.png);
-  }
-
   .text-margin3 {
-    margin: 58px 181px 453px 182px;
+    margin: 0;
+    padding: 58px 181px 62px 182px;
   }
 
   .card-margin {
@@ -571,14 +575,10 @@
     margin-top: 427px;
   }
 
-  .card-t {
-    margin: 0;
-    width: 366px;
-  }
-
-  .tablet-column-two {
+  .column-two {
+    width: 100%;
     display: grid;
-    grid-auto-rows: 490px;
+    /* grid-auto-rows: 490px; */
     grid-template-columns: repeat(2, 1fr);
     margin: 12px;
     gap: 12px;
@@ -612,6 +612,10 @@
 @media screen and (min-width: 900px) {
   .card {
     height: 692px;
+  }
+
+  .card-c {
+    height: 580px;
   }
 
   .bg-image-1 {
@@ -654,16 +658,14 @@
 
   /* endees 2 card yvah heseg */
 
-  .card-c {
-    margin: 0;
-  }
-
-  .card-t {
-    height: 650px;
-  }
-
   .tablet-column-two {
     margin: 0;
+    display: flex;
+  }
+
+  .column {
+    width: 744px;
+    height: 1494px;
   }
 
   .column-two {
@@ -671,10 +673,41 @@
     grid-auto-rows: 580px;
     grid-template-columns: repeat(2, 1fr);
     margin: 12px;
-    gap: 12px;
+    column-gap: 12px;
+  }
+
+  .bg1-image-3 {
+    display: block;
+    background-image: url(./Image/laptop-iPad.png);
   }
 
   .bg-image-3 {
-    background-image: url(./Image/laptop-iPad.png);
+    display: none;
+  }
+
+  .c3-text2 {
+    font-size: 18px;
+  }
+
+  .gap4 {
+    gap: 9px;
+  }
+
+  .c3-footer-text {
+    margin-top: 384px;
+    font-size: 14px;
+  }
+
+  .text-margin3 {
+    margin: 0;
+    padding: 58px 310px 63px;
+  }
+
+  .bg-image-4 {
+    background-image: url(./Image/Airpods2.png);
+  }
+
+  .text-margin4 {
+    margin: 401px 286px 58px;
   }
 }
