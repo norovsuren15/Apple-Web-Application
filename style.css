@@ -77,6 +77,10 @@
   text-align: center;
 }
 
+.flex-end {
+  align-items: flex-end;
+}
+
 /* DEERH HESEGT BAINGA HEREGLEGDEJ BUI TOOLS HESGUUD BAGTSAN*/
 
 /* ENE DEES HEADER HESEG EHLEJ BAINA */
@@ -181,7 +185,7 @@
 }
 
 .card-text-t {
-  width: 241px;
+  width: 100%;
   height: 147px;
 }
 
@@ -523,6 +527,165 @@
 
 .text-margin9 {
   margin: 51px 52px 319px 53px;
+}
+
+/* END CARD SECTION DUUSSAN */
+
+/* ENDEES FOOTER HESEG EHELJ BAINA */
+
+.assets {
+  margin: 12px 0 16px;
+  gap: 16px;
+  overflow-x: scroll;
+}
+
+.tabpanel {
+  width: 274px;
+  height: 495px;
+  background-position: center;
+  background-size: cover;
+}
+
+.tabpanel__figure {
+  height: 54px;
+  padding: 4px 27px;
+}
+
+.tabpanel__text {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 13.48px;
+  color: white;
+  font-weight: 400;
+}
+
+.tabpanel__img-1 {
+  background-image: url(./Image/panel-img-1.png);
+  padding: 58px 0;
+}
+
+.tabpanel__img-2 {
+  background-image: url(./Image/panel-img-2.png);
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.tabpanel__figure2-1 {
+  height: 33px;
+  padding: 4px;
+  margin-bottom: 6px;
+}
+
+.tabpanel__figure2-2 {
+  height: 54px;
+  padding: 4px 27px;
+  margin-bottom: 200px;
+}
+
+.tabpanel2__text1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 12.66px;
+  color: white;
+  font-weight: 700;
+}
+
+.tabpanel2__text2 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 13.01px;
+  color: white;
+  font-weight: 400;
+}
+
+.tabpanel2__text3 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 10.43px;
+  color: white;
+  font-weight: 400;
+}
+
+.tabpanel2__text4 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 12.03px;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+
+.tabpanel2 {
+  width: 107.75px;
+  height: 36px;
+  background-color: #f5f5f7;
+  border-radius: 980px;
+}
+
+.tabpanel2__text5 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.tabpanel__img-3 {
+  background-image: url(./Image/panel-img-3.png);
+  padding: 58px 0;
+}
+
+.tabpanel__img-4 {
+  width: 274px;
+  height: 495px;
+  background-image: url(./Image/panel-img-4.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.tabpanel__img-5 {
+  width: 274px;
+  height: 495px;
+  background-image: url(./Image/panel-img-5.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.tabpanel__img-6 {
+  width: 274px;
+  height: 495px;
+  background-image: url(./Image/panel-img-6.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.tabpanel__img-7 {
+  width: 274px;
+  height: 495px;
+  background-image: url(./Image/panel-img-7.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.tabpanel__img-8 {
+  width: 274px;
+  height: 495px;
+  background-image: url(./Image/panel-img-8.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.tablist {
+  height: 8px;
+  margin: 16px 0 14px;
+  gap: 14px;
+}
+
+.tab {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #000000cc;
+}
+
+.tab-center {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #0000006b;
 }
 
 @media screen and (min-width: 768px) {
@@ -912,5 +1075,3 @@
     height: 32px;
   }
 }
-
-/* END CARD SECTION DUUSSAN */
