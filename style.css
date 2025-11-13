@@ -754,13 +754,13 @@
   margin-bottom: 10px;
 }
 
-.auto__img2-1 {
+.auto__img {
   width: 114px;
   height: 114px;
   margin: 10px 0 10px 62px;
 }
 
-.auto__img2-2 {
+.auto__img-icon {
   width: 41px;
   height: 9.67px;
   margin: 113.33px 10px 11px 10px;
@@ -778,6 +778,15 @@
   height: 134px;
   margin-bottom: 10px;
   background-image: url(./Image/auto-bg-img2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.auto__bg-img1 {
+  width: 238px;
+  height: 134px;
+  margin-bottom: 10px;
+  background-image: url(./Image/auto-bg-img1.png);
   background-position: center;
   background-size: cover;
 }
